@@ -1,0 +1,5 @@
+/workspaces/cloud-file-storage-system/src/main/java/com/example/cloud/model/FileMetadata.java
+/workspaces/cloud-file-storage-system/src/main/java/com/example/cloud/CloudFileStorageApplication.java
+/workspaces/cloud-file-storage-system/src/main/java/com/example/cloud/service/FileStorageService.java
+/workspaces/cloud-file-storage-system/src/main/java/com/example/cloud/controller/FileController.java
+/workspaces/cloud-file-storage-system/src/main/java/com/example/cloud/repository/FileRepository.java

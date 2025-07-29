@@ -1,0 +1,12 @@
+/target/
+.idea/
+*.iml
+*.class
+*.log
+logs/
+.DS_Store
+Thumbs.db
+/storage/
+/test-output/
+node_modules/
+.vscode/

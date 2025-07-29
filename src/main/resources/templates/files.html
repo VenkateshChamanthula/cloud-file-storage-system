@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stored Files</title>
+</head>
+<body>
+    <h2>All Uploaded Files</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Size (bytes)</th>
+            <th>Uploaded At</th>
+            <th>Actions</th>
+        </tr>
+        <tr th:each="file : ${files}">
+            <td th:text="${file.fileName}"></td>
+            <td th:text="${file.fileType}"></td>
+            <td th:text="${file.size}"></td>
+            <td th:text="${file.uploadTime}"></td>
+            <td>
+                <a th:href="@{/download/{filename}(filename=${file.fileName})}">Download</a> |
+                <a th:href="@{/delete/{filename}(filename=${file.fileName})}">Delete</a>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <a href="/">Back to Upload</a>
+</body>
+</html>

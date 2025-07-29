@@ -1,0 +1,5 @@
+com/example/cloud/repository/FileRepository.class
+com/example/cloud/controller/FileController.class
+com/example/cloud/model/FileMetadata.class
+com/example/cloud/CloudFileStorageApplication.class
+com/example/cloud/service/FileStorageService.class
