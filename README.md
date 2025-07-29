@@ -10,7 +10,7 @@
 
 ## 🔥 Live Demo
 
-👉 **[Click here to try the app](https://glorious-cod-p5769j697qpc9r94-8080.app.github.dev/)**  
+👉 **[Click here to try the app] https://glorious-cod-p5769j697qpc9r94-8080.app.github.dev/**  
 > Hosted via GitHub Codespaces – no local setup needed!
 
 ---
